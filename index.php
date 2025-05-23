@@ -30,14 +30,15 @@
     <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
     <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
     <style>
-  .dropdown-menu a.dropdown-item {
-    color: #000; /* ou white, se tiver fundo escuro */
-  }
+        .dropdown-menu a.dropdown-item {
+            color: #000;
+            /* ou white, se tiver fundo escuro */
+        }
 
-  .dropdown-menu {
-    background-color: #fff;
-  }
-</style>
+        .dropdown-menu {
+            background-color: #fff;
+        }
+    </style>
 
 </head>
 
@@ -84,18 +85,19 @@
                     <!--<li class="nav-item"><a class="nav-link link text-white text-primary display-4" target="_blank" href="index.php#form_interesse">Tenho Interesse</a></li>-->
                     <li class="nav-item"><a class="nav-link link text-white text-primary display-4" target="_blank" href="index.php#resultados">Publicações</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle text-white text-primary display-4"
-                            href="#" id="documentosDropdown" role="button" data-toggle="dropdown"
-                            aria-haspopup="true" aria-expanded="false">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Documentos
                         </a>
-                        <div class="dropdown-menu" aria-labelledby="documentosDropdown">
-                            <a class="dropdown-item" href="https://www.rn.senai.br/wp-content/uploads/2025/05/PDI.pdf" target="_blank">PDI</a>
-                            <a class="dropdown-item" href="https://www.rn.senai.br/wp-content/uploads/2025/05/calendario_academico-2025-2.pdf" target="_blank">Calendário Acadêmico</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="https://dd.diplomax.cloud/" target="_blank">Validador de Diploma</a>
-                        </div>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">PDI</a></li>
+                            <li><a class="dropdown-item" href="#">Calendário Acadêmico</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Validador de Diploma</a></li>
+                        </ul>
                     </li>
+
 
                     <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.php#contacts1-r">Fale Conosco</a></li>
                 </ul>
@@ -1299,10 +1301,20 @@
         </div>
     </section>
     <a href="https://mobirise.site/d"></a>
-    
+
+    <!-- jQuery (necessário para o Bootstrap 4; opcional para o Bootstrap 5) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <!-- Popper.js (necessário para o Bootstrap 5) -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script src="assets/web/assets/jquery/jquery.min.js"></script>
     <script src="assets/popper/popper.min.js"></script>
