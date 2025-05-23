@@ -13,32 +13,30 @@
 
     <title>FAETI - Faculdade de Energias Renováveis e Tecnologias Industriais</title>
     <link rel="stylesheet" href="assets/web/assets/mobirise-icons2/mobirise2.css">
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons/mobirise-icons.css">
-    <link rel="stylesheet" href="assets/web/assets/mobirise-icons-bold/mobirise-icons-bold.css">
-    <link rel="stylesheet" href="assets/tether/tether.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
-    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
-    <link rel="stylesheet" href="assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css">
-    <link rel="stylesheet" href="assets/socicon/css/styles.css">
-    <link rel="stylesheet" href="assets/theme/css/style.css">
-    <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap">
-    </noscript>
-    <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css">
-    <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css">
-    <style>
-        .dropdown-menu a.dropdown-item {
-            color: #000;
-            /* ou white, se tiver fundo escuro */
-        }
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+  <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css">
+  <link rel="stylesheet" href="assets/dropdown/css/style.css">
+  <link rel="stylesheet" href="assets/socicon/css/styles.css">
+  <link rel="stylesheet" href="assets/theme/css/style.css">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;700&display=swap&display=swap"></noscript>
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=B6sxtO"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=B6sxtO" type="text/css">
 
-        .dropdown-menu {
-            background-color: #fff;
-        }
-    </style>
+    <!-- <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap-reboot.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/dropdown/css/style.css"> -->
+    <!-- <link rel="stylesheet" href="assets/datatables/data-tables.bootstrap4.min.css"> -->
+    <!-- <link rel="stylesheet" href="assets/socicon/css/styles.css">
+    <link rel="stylesheet" href="assets/theme/css/style.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"> -->
+    <!-- <noscript>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik:300,400,500,600,700,800,900,300i,400i,500i,600i,700i,800i,900i&display=swap">
+    </noscript> -->
+    <!-- <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css"> -->
+    <!-- <link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css" type="text/css"> -->
+    
 
 </head>
 
@@ -85,20 +83,12 @@
                     <!--<li class="nav-item"><a class="nav-link link text-white text-primary display-4" target="_blank" href="index.php#form_interesse">Tenho Interesse</a></li>-->
                     <li class="nav-item"><a class="nav-link link text-white text-primary display-4" target="_blank" href="index.php#resultados">Publicações</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Documentos
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">PDI</a></li>
-                            <li><a class="dropdown-item" href="#">Calendário Acadêmico</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Validador de Diploma</a></li>
-                        </ul>
-                    </li>
-
-
+						<a class="nav-link link dropdown-toggle text-black show display-4" href="https://mobiri.se" aria-expanded="false" data-toggle="dropdown-submenu" data-bs-toggle="dropdown">
+							Documentos</a>
+						<div class="dropdown-menu show" data-bs-popper="none">
+							<a class="dropdown-item text-black display-4" href="https://www.rn.senai.br/wp-content/uploads/2025/05/PDI.pdf" aria-expanded="false">PDI</a><a class="dropdown-item text-black display-4" href="https://www.rn.senai.br/wp-content/uploads/2025/05/calendario_academico-2025-2.pdf" aria-expanded="false">Calendário Acadêmico</a><a class="dropdown-item text-black display-4" href="https://dd.diplomax.cloud/" aria-expanded="false">Validador de Diploma</a>
+						</div>
+					</li>
                     <li class="nav-item"><a class="nav-link link text-white text-primary display-4" href="index.php#contacts1-r">Fale Conosco</a></li>
                 </ul>
                 <div class="navbar-buttons mbr-section-btn"><a class="btn btn-sm btn-primary display-7" href="index.php#form_interesse">INSCREVA-SE</a></div>
