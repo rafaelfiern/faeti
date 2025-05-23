@@ -82,6 +82,17 @@
                     <!--<li class="nav-item"><a class="nav-link link text-white text-primary display-4" target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfM8sdfy8-URwTg_h-OI1lHi-kOcrdMlf6xn6Y4x2mUliwzjQ/viewform">Tenho Interesse</a></li>-->
                     <!--<li class="nav-item"><a class="nav-link link text-white text-primary display-4" target="_blank" href="index.php#form_interesse">Tenho Interesse</a></li>-->
                     <li class="nav-item"><a class="nav-link link text-white text-primary display-4" target="_blank" href="index.php#resultados">Publicações</a></li>
+                    <li class="nav-item nav-dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-expanded="false">
+                        Documentos
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="https://www.rn.senai.br/wp-content/uploads/2025/05/PDI.pdf">PDI</a></li>
+                        <li><a class="dropdown-item" href="#">Calendário Acadêmico</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Validador de Diploma</a></li>
+                    </ul>
+                    </li>
                     <li class="nav-item dropdown">
 						<a class="nav-link link dropdown-toggle text-black show display-4" href="https://mobiri.se" aria-expanded="false" data-toggle="dropdown-submenu" data-bs-toggle="dropdown">
 							Documentos</a>
